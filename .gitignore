@@ -1,0 +1,52 @@
+build
+
+# Packages #
+# ----------------------------------------------------------------------
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+*.cert
+*.crt
+*.key
+*.pem
+
+# Logs and databases #
+# ----------------------------------------------------------------------
+*.log
+# *.sql
+*.sqlite
+.netlify
+
+# OS generated files #
+# ----------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# NodeJS modules folder
+node_modules
+
+# npm debug log
+# ----------------------------------------------------------------------
+npm-debug.log
+yarn-error.log
+
+# vs code
+# ----------------------------------------------------------------------
+.vscode
+
+# coverage
+# ----------------------------------------------------------------------
+/coverage

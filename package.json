@@ -1,0 +1,36 @@
+{
+	"name": "spon-snowpack-starter",
+	"version": "1.0.0",
+	"license": "MIT",
+	"keywords": [
+		"csa-template"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"start": "snowpack dev",
+		"build": "snowpack build",
+		"format": "prettier --write \"src/**/*.js\"",
+		"lint": "prettier --check \"src/**/*.js\"",
+		"test": "echo \"This template does not include a test runner by default.\" && exit 1"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@snowpack/plugin-postcss": "^1.0.1",
+		"babel-eslint": "^10.1.0",
+		"eslint": "^7.7.0",
+		"eslint-config-prettier": "^6.11.0",
+		"cssnano": "^4.1.10",
+		"imagemin-mozjpeg": "^9.0.0",
+		"imagemin-optipng": "^8.0.0",
+		"postcss": "^7.0.32",
+		"postcss-cli": "^7.1.1",
+		"postcss-preset-env": "^6.7.0",
+		"prettier": "^2.0.5",
+		"snowpack": "^2.8.0",
+		"snowpack-plugin-imagemin": "^1.0.0",
+		"tailwindcss": "^1.7.3",
+		"watch": "^1.0.2"
+	}
+}
